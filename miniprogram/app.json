@@ -1,8 +1,4 @@
 {
-  "注释": {
-    "001": "微信小程序进行全局配置",
-    "999": "微信小程序进行全局配置"
-  },
   "pages": [
     "pages/jamesHome/jamesHome",
     "pages/index/index",

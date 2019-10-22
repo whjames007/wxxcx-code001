@@ -1,3 +1,5 @@
 <!--miniprogram/pages/jamesHome/jamesHome.wxml-->
 <text>aaaa</text>
 <button>中共中央</button>
+<view> Hello {{name}}! </view>
+<button bindtap="changeName">按钮</button>
