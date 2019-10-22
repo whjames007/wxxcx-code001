@@ -1,7 +1,13 @@
 // miniprogram/pages/jamesHome/jamesHome.js
+const app = getApp()
 Page({
+  methodGotUserInfo: function(e) {
+    console.log(e.detail.errMsg)
+    console.log(e.detail.userInfo)
+    console.log(e.detail.rawData)
+  },
   changeName: function(e) {
-    let aaa = getApp().globalData.i18n.name
+    let aaa = app.globalData.i18n.name
     console.log(`【主页】`, aaa)
     // sent data change to view
     this.setData({
@@ -19,7 +25,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    const accountInfo = wx.getAccountInfoSync();
+    console.log('生命周期函数--监听页面加载', accountInfo) // 小程序 appId
+     
   },
 
   /**

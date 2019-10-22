@@ -3,3 +3,4 @@
 <button>中共中央</button>
 <view> Hello {{name}}! </view>
 <button bindtap="changeName">按钮</button>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="methodGotUserInfo">获取用户信息</button>
