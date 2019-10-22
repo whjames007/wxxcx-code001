@@ -1,4 +1,8 @@
 {
+  "注释": {
+    "001": "微信小程序进行全局配置",
+    "999": "微信小程序进行全局配置"
+  },
   "pages": [
     "pages/jamesHome/jamesHome",
     "pages/index/index",
@@ -16,15 +20,17 @@
     "pages/im/room/room"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#19be6b",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#2D8CF0",
     "navigationBarTitleText": "学海无涯苦作舟",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "selectedColor": "#1296db",
+    "color": "#111111",
+    "selectedColor": "#FFFFFF",
+    "backgroundColor": "#2D8CF0",
     "list": [
       {
         "pagePath": "pages/jamesHome/jamesHome",
